@@ -28,7 +28,7 @@ on:
         options:
           - 'R2S'
           - 'x86_64'
-          - 'H3c Magic NX30 Pro'
+          - 'H3c_Magic_NX30_Pro'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
