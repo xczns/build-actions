@@ -17,7 +17,7 @@
 
  感谢以下各位大佬（排名无分先后）<br />
 
- [`coolsnowwolf`](https://github.com/coolsnowwolf/lede/tree/master)
+ [`lede`](https://github.com/coolsnowwolf/lede/tree/master)
  [`Lienol`](https://github.com/Lienol/openwrt/tree/21.02)
  [`immortalwrt`](https://github.com/immortalwrt/immortalwrt)
  [`openwrt`](https://github.com/openwrt/openwrt)
