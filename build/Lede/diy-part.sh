@@ -6,16 +6,10 @@
 
 
 # 后台IP设置
-
-# X86
 export Ipv4_ipaddr="192.168.11.41"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
 export Op_name="0"                # 修改主机名称为OpenWrt-123(填0为不作修改)
 
-# R2S
-# export Ipv4_ipaddr="192.168.1.145"            # 修改openwrt后台地址(填0为关闭)
-# export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
-# export Op_name="0"                # 修改主机名称为OpenWrt-123(填0为不作修改)
 
 
 # 内核和系统分区大小(不是每个机型都可用)
@@ -35,14 +29,6 @@ export Broadcast_Ipv4="0"                   # 设置 IPv4 广播(填入您的IP�
 export Disable_DHCP="1"                     # 旁路由关闭DHCP功能(1为启用命令,填0为不作修改)
 export Disable_Bridge="0"                   # 旁路由去掉桥接模式(1为启用命令,填0为不作修改)
 export Create_Ipv6_Lan="0"                  # 爱快+OP双系统时,爱快接管IPV6,在OP创建IPV6的lan口接收IPV6信息(1为启用命令,填0为不作修改)
-
-# R2S
-# export Gateway_Settings="192.168.1.1"                 # 旁路由设置 IPv4 网关(填入您的网关IP为启用)(填0为不作修改)
-# export DNS_Settings="192.168.1.1"                     # 旁路由设置 DNS(填入DNS，多个DNS要用空格分开)(填0为不作修改)
-# export Broadcast_Ipv4="0"                   # 设置 IPv4 广播(填入您的IP为启用)(填0为不作修改)
-# export Disable_DHCP="1"                     # 旁路由关闭DHCP功能(1为启用命令,填0为不作修改)
-# export Disable_Bridge="0"                   # 旁路由去掉桥接模式(1为启用命令,填0为不作修改)
-# export Create_Ipv6_Lan="0"                  # 爱快+OP双系统时,爱快接管IPV6,在OP创建IPV6的lan口接收IPV6信息(1为启用命令,填0为不作修改)
 
 # IPV6、IPV4 选择
 export Enable_IPV6_function="0"             # 编译IPV6固件(1为启用命令,填0为不作修改)(如果跟Create_Ipv6_Lan一起启用命令的话,Create_Ipv6_Lan命令会自动关闭)
